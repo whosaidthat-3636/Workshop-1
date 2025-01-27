@@ -47,13 +47,15 @@ function setup() {
   createCanvas(550, 400);
   background(98,162,107);
 ```
+- I added the white to the balls to further simulate it
+```
+function ball(x, y, size, baseColor) {
+  fill(255); 
+  noStroke();
+  ellipse(x, y, size, size);
 
-<img width="548" alt="image" src="https://github.com/user-attachments/assets/a36e443a-8f15-4ef4-82f5-da5db060541d" />
-
-With this, I was only getting mere flahses of color everytime. My mistake was having the background fill in the draw function as it would draw OVER the balls. 
-
-<img width="725" alt="image" src="https://github.com/user-attachments/assets/3e4687a5-eb39-4efb-9a3e-f13925dcba4e" />
-
-But I also wanted to keep the ball at a constant scale so that it reflects more like a game of pool. This was a simple fix as all I had to do was change the value of the scale rather than leaving it at a random. 
-
-adding white ellipses for a closer addition but feel like its more eye like
+  fill(baseColor);
+  ellipse(x, y, size * 1.015, size * 0.6);
+```
+- I wanted it to be applied to only a certain amount of balls each run but I couldn't figure it out
+- The addition also made it look more like an eye based on the shape which I find to be a dissatisfaction
