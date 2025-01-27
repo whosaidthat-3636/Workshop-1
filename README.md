@@ -7,10 +7,16 @@ The idea for this particular workshop is to mimic a pool table, everytime the pa
 * Make a p5.js sketch using 2D primitive shapes, loops, and random numbers.
 * Write your own functions and make calls to these functions in your code.
 * Experiment with at least one new item from the from the p5.js documentation
-* Keep notes to clearly document your process and learning.
 
-## 1. Setup 
+
+## Documentation
+
+### 1. Setup 
+- Image taken from Wikipedia 
 - Put the image through a image color picker to micmic
+![image](https://github.com/user-attachments/assets/15eb0aeb-02a7-4cdf-9c8e-792f86385084)
+
+
 
 <img width="548" alt="image" src="https://github.com/user-attachments/assets/a36e443a-8f15-4ef4-82f5-da5db060541d" />
 
