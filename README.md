@@ -1,5 +1,5 @@
 # Workshop-1
-Link: Refresh page for each loop [https://whosaidthat-3636.github.io/Workshop-1/] 
+Link: Refresh page for each loop 
 
 The idea for this particular workshop is to mimic a pool table, everytime the page is refreshed/played with random numbers of balls will appear at random placements
 
