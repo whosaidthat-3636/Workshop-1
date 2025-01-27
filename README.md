@@ -59,3 +59,25 @@ function ball(x, y, size, baseColor) {
 ```
 - I wanted it to be applied to only a certain amount of balls each run but I couldn't figure it out
 - The addition also made it look more like an eye based on the shape which I find to be a dissatisfaction
+
+
+### 3. Table and instruction
+- To give more of the "look" I added the brown exterior
+- I also wanted to insure for user's to have an idea to what to do for more results so I added text
+```
+
+function draw() {
+  fill(100,58,45);
+  rect(0, 0, 550, 25);
+  rect(0, 375, 550, 25);
+  rect(0, 0, 25, 400);
+  rect(525, 0, 25, 400);
+  
+  fill(255);
+  text('Refresh page for new results', 10, 20);
+}
+```
+
+
+
+
