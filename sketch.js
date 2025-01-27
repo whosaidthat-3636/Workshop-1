@@ -8,7 +8,13 @@ function setup() {
 }
 
 function draw() {
-   fill(0);
+  fill(100,58,45);
+  rect(0, 0, 550, 25);
+  rect(0, 375, 550, 25);
+  rect(0, 0, 25, 400);
+  rect(525, 0, 25, 400);
+  
+  fill(255);
   text('Refresh page for new results', 10, 20);
 }
 
