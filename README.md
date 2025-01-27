@@ -65,7 +65,6 @@ function ball(x, y, size, baseColor) {
 - To give more of the "look" I added the brown exterior
 - I also wanted to insure for user's to have an idea to what to do for more results so I added text
 ```
-
 function draw() {
   fill(100,58,45);
   rect(0, 0, 550, 25);
